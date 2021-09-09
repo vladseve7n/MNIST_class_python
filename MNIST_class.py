@@ -140,12 +140,12 @@ class Paint(Frame):
                                         fill='black',
                                         outline='white')
         max = self.preds.argmax()
-        self.canv1.create_rectangle(20, 
-                                    20 + max*58,
-                                    20 + 160*self.preds[max],
-                                    50 + max*58,
-                                    fill='green',
-                                    outline='white')
+        # self.canv1.create_rectangle(20, 
+        #                             20 + max*58,
+        #                             20 + 160*self.preds[max],
+        #                             50 + max*58,
+        #                             fill='red',
+        #                             outline='black')
         
         
     
