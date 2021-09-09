@@ -84,8 +84,8 @@ class Paint(Frame):
                                            y*self.sc, 
                                            x*self.sc + self.sc, 
                                            y*self.sc + self.sc,
-                                           fill='black',
-                                           outline='white')
+                                           fill='green',
+                                           outline='black')
         self.tens = torch.zeros(28, 28)        
         
     def print_to_tens(self, x, y):
