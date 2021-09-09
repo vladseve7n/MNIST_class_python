@@ -144,7 +144,7 @@ class Paint(Frame):
                                     20 + max*58,
                                     20 + 160*self.preds[max],
                                     50 + max*58,
-                                    fill='red',
+                                    fill='green',
                                     outline='white')
         
         
