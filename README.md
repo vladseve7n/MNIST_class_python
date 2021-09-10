@@ -4,6 +4,8 @@ For the first you should draw your digit using your mouse(left button) and then 
 To clear window you should click right button of your mouse!
 Enjoy!
 
+If it is interesting for you how the neural network has been learned, you can see the file: "MNIST_conv.ipynb". There I have used LeNet5 arkhitekture to classify MNIST dataset and the I have saved the model with trained parameters in order to use it in the project.
+
 It may be difficult to inderstand what is happening here. I mean about commits.
 But it is only for my education 
 
